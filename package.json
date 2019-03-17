@@ -8,6 +8,7 @@
     "typescript": "^3.3.3333"
   },
   "devDependencies": {
+    "braces": "^2.3.2",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
     "enzyme-react-16-adapter-setup": "^0.1.0",
@@ -22,6 +23,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"]
   },
   "browserslist": [
     ">0.2%",
